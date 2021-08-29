@@ -344,15 +344,61 @@ footer{
    
     display: flex;
     flex-direction: row;
-   align-items: center;
+  
    justify-content: center;
+   
+
+}
+
+footer h3{
+    font-family: Poppins;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #F4B79E;
 }
 .logo img{
     margin-right: 100px;
 }
 
+.Categories ul li,.about-us  ul li,.Support ul li {
+    list-style: none;
+margin-top: 10px;
 
+}
+.Categories ul li a,.about-us  ul li a,.Support ul li a{
+    text-decoration: none;
+    font-family: Poppins;
+font-size: 18px;
+line-height: 27px;
+color: #F4B79E;
 
+}
+
+.Categories ,.about-us  ,.Support  {
+   margin: 30px 50px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons img{
+    margin-right: 10px;
+}
+.payments{
+    margin-top: 100px;
+}
+
+.payments img{
+    margin-right: 10px;
+}
+
+ .phone-no {
+    margin-top: 10px;
+    font-size: 18px;
+line-height: 27px;
+}
 /* End footer */
 
 
