@@ -13,6 +13,132 @@ h1 , h2 , h3,h4,h5, h6 {
 p{
      font-family: Quicksand;
 }
+
+
+
+/*    header   */
+
+header{
+    background-image: url(/img/bgimage1.svg);
+width: 100vw;
+height: 100vh;
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; 
+object-fit: cover;
+background-attachment: fixed;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;
+padding-left: 100px;
+margin-bottom: 20px;
+
+}
+
+
+header h1{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 101.8%;
+/* identical to box height, or 61px */
+
+
+color: #00A653;
+margin-bottom: 20px;
+
+}
+header p{
+    font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+width: 40%;
+
+/* FC */
+
+color: #171635;
+margin-bottom: 40px;
+}
+header div{
+    display: flex;
+}
+
+.btn-op{
+text-decoration: none;
+
+    background: #00A653;
+border: none;
+border-radius: 10px;
+padding: 10px 30px;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+margin-right: 20px;
+}
+
+
+.btn-op:hover ,.btn-op:active{
+    border: 1px solid #00A653;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #00A653;
+}
+
+
+
+.btn-cu{
+text-decoration: none;
+
+    border: 1px solid #00A653;
+box-sizing: border-box;
+border-radius: 10px;
+padding: 10px 30px;
+background: none;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #00A653;
+
+
+}
+
+.btn-cu:hover , .btn-cu:active{
+    background: #00A653;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+/* End   header   */
+
 /*  Why Choose Us section    */
 
 .why-choose-us{
@@ -174,6 +300,21 @@ color: #000000;
 /* End product process section         */
 
 /* Our Products */
+
+.h1-our-prdt{
+    font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* FC */
+
+color: #171635;
+}
 .Our-products{
     display: flex;
     flex-direction: column;
@@ -218,6 +359,21 @@ margin:10px 11px;
 /*  End Our Products */
 
 /*  How we are Special  */
+.h1-How-we-are-special{
+    font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* FC */
+
+color: #171635;
+
+}
 .How-we-are-special{
     display: flex;
     flex-direction: column;
@@ -263,6 +419,9 @@ align-items: center;
 /* FC */
 
 color: #171635;
+}
+.Customized-Basket-content p span{
+    font-weight: bold;
 }
 
 .cust-img{
@@ -357,9 +516,9 @@ font-size: 24px;
 line-height: 36px;
 color: #F4B79E;
 }
-.logo img{
+/* .logo img{
     margin-right: 100px;
-}
+} */
 
 .Categories ul li,.about-us  ul li,.Support ul li {
     list-style: none;
