@@ -88,15 +88,9 @@ margin-right: 20px;
 
 .btn-op:hover ,.btn-op:active{
     border: 1px solid #00A653;
-    box-sizing: border-box;
-    border-radius: 10px;
+   
     background: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    
     
     color: #00A653;
 }
@@ -125,17 +119,7 @@ color: #00A653;
 
 .btn-cu:hover , .btn-cu:active{
     background: #00A653;
-    border: none;
-    border-radius: 10px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
     color: #FFFFFF;
-    margin-right: 20px;
 }
 /* End   header   */
 
@@ -171,7 +155,7 @@ color: #171635;
    
 }
 .wcu-item{
-    margin:0px 11px;
+    margin:0px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -559,6 +543,150 @@ color: #F4B79E;
 line-height: 27px;
 }
 /* End footer */
+
+
+/* desktop */
+@media screen and (max-width: 700px){
+   /* header */
+header{
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 40px;
+    padding: 0px;
+}
+header h1{
+    font-size: 45px;
+}
+header p{
+    width: 80%;
+    font-size: 18px;
+}
+.btn-op{
+    padding: 7px 25px;
+}
+/* End header */
+ 
+/*  Why Choose Us section    */
+.wcu-items{
+    flex-wrap: wrap;
+}
+.why-choose-us{
+    align-items: center;
+    justify-content: center;
+}
+.wcu-items {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    margin-top: 57px;
+    margin-bottom: 78px;
+    align-items: center;
+    justify-content: center;
+}
+.wcu-item{
+    margin:10px 25px;
+    width: 198px;
+    height: 228px;}
+/* End Why Choose Us section    */
+
+
+/*  product process section         */
+.ragh {
+    width: 72%;
+    height: 243px;
+}
+.p-p-info {
+    margin: 0px 51px;
+}
+.p-p-content {
+    margin-left: 32px;
+}
+.p-p-content h1 {
+    font-size: 31px;
+}
+.p-p-content p {
+    font-size: 16px;
+}
+.p-p-process{
+    flex-wrap: wrap;
+}
+.single-p-p-process{
+    margin-top: 15px;
+}
+.single-p-p-process {
+    width: 206px;
+    height: 265px;
+}
+/* End product process section         */
+
+/* Our Products */
+.Our-products {
+    padding: 46px 0px;
+}
+
+.div-our-product h1 {
+    margin-left: 68px;
+}
+
+.single-product-box {
+    width: 207px;
+    height: 244px;
+}
+
+/* End Our Products */
+
+/*  How we are Special  */
+
+.list {
+    margin: 36px 0px;
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 31px;
+    color: #000000;
+}
+
+/* End How we are Special  */
+
+
+/* About  */
+.cust-img {
+    width: 237px;
+    height: 318px;
+}
+
+
+.Customized-Basket-content {
+    margin-left: 33px;
+}
+
+.Customized-Basket h1 {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.Customized-Basket-content p {
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 14px;
+}
+
+
+.About {
+    padding: 28px 39px;
+}
+
+
+.Customized-Basket h1{
+    font-size: 28px;
+    line-height: 37px;
+}
+/* End About  */
+
+
+}
 
 
 
