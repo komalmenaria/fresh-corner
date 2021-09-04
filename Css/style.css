@@ -284,7 +284,9 @@ color: #000000;
 /* End product process section         */
 
 /* Our Products */
-
+.strn-img{
+    display: none;
+}
 .h1-our-prdt{
     font-weight: 600;
 font-size: 36px;
@@ -418,7 +420,9 @@ height: 444px;
     flex-direction: column;
     margin-left: 47px;
 }
-
+.basket-images-sp{
+    display: none;
+}
 .Customized-Basket-content p{
     font-family: Poppins;
 font-size: 18px;
@@ -542,11 +546,31 @@ color: #F4B79E;
     font-size: 18px;
 line-height: 27px;
 }
+
+
+
+
+
+.logo {
+    
+    float: left;
+    padding:20px
+    ;
+    padding-right: 280px;
+}
+.logo img {
+    width:  300px;
+}
+.footer-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* End footer */
 
 
 /* desktop */
-@media screen and (max-width: 700px){
+@media screen and (  max-width: 900px){
    /* header */
 header{
     align-items: center;
@@ -626,7 +650,7 @@ header p{
 }
 
 .div-our-product h1 {
-    margin-left: 68px;
+    margin-left: 121px;
 }
 
 .single-product-box {
@@ -642,7 +666,7 @@ header p{
     margin: 36px 0px;
     font-family: Poppins;
     font-size: 15px;
-    line-height: 31px;
+    line-height: 25px;
     color: #000000;
 }
 
@@ -684,9 +708,282 @@ header p{
     line-height: 37px;
 }
 /* End About  */
+.cmbdiv{
+    margin: 40px 20px;
+}
+
+
+
+.logo img {
+    width: 230px;
+}
+.logo {
+    float: left;
+    padding: 20px;
+    padding-right: 20px;
+}
+.Categories, .about-us, .Support {
+    margin: 15px 13px;
+}
+.img1{
+    width: 249px;
+}
+.img2,.img3{
+    width: 100%;
+}
+.Customized-Basket-content {
+    margin-left: 10px;
+}
+/* footer */
+
+.Categories ul li a, .about-us ul li a, .Support ul li a{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.Categories ul li, .about-us ul li, .Support ul li {
+    list-style: none;
+    margin-top: 4px;
+}
+
+footer h3 {
+    font-size: 19px;
+    line-height: 29px;
+}
+@media screen and (max-width: 900px){
+.Categories, .about-us, .Support {
+    margin: 16px 6px;
+}
+
+/* End footer */
 
 
 }
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+/* phone */
+@media screen and (max-width: 450px) {
+/* header */
+.logo img {
+    width:100% ;
+}
+header{
+   background-image: url(/img/phone\ bg.svg);
+   height: 100vh;
+   background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; 
+object-fit: cover;
+background-attachment: fixed;
+   display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+header h1{
+    font-size: 45px;
+    line-height: 101.8%;
+    /* or 46px */
+    
+    text-align: center;
+    
+    color: #00A653;
+}
+header p{
+    width: 100%;
+    font-size: 16px;
+line-height: 15px;
+text-align: center;
+
+/* FC */
+
+color: #171635;
+
+}
+
+.btn-op{
+padding: 10px 10px;
+margin: 5px;
+}
+.btn-cu{
+    padding: 10px 10px;
+    margin: 5px; 
+}
+/* End header */
+
+
+
+/* why choose us  */
+.w-c-u{
+    font-size: 24px;
+    line-height: 36px;
+}
+.wcu-items{
+    flex-wrap: wrap;
+}
+
+/* .wcu-item{
+    width: 181px;
+height: 207px;
+margin: 0px;
+} */
+
+.wcu-item {
+    width: 40vw;
+    height: 26vh;
+    margin: 10px;
+}
+
+
+.product-process{
+    display: flex;
+    flex-direction: column;
+}
+.p-p-info{
+    padding-top: 33px;
+    flex-direction: column-reverse;
+    padding-bottom: 10px;
+}
+
+.p-p-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-p-content{
+    margin: 0px  15px;
+}
+.p-p-content h1{
+    font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* FC */
+
+color: #171635;
+
+}
+
+.p-p-content p{
+    font-size: 12px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+width: 82%;
+}
+.ragh{
+    display: none;
+}
+
+.strn-img{
+    display: block;
+    margin: 20px 5px;
+    border-radius: 5px;
+}
+/* End why choose us  */
+
+
+.single-p-p-process{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 73px;
+}
+.arrow{
+    display: none;
+}
+
+.How-we-are-special {
+    padding: 33px 21px;
+}
+.Customized-Basket{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cmbdiv{
+    margin: 40px 0px;
+    margin-bottom: 10px;
+}
+.cust-img{
+    display: none;
+}
+.Customized-Basket h1{
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* FC */
+    
+    color: #171635;
+}
+
+.Customized-Basket-content p{
+    font-size: 12px;
+line-height: 26px;
+}
+.Customized-Basket-content {
+    margin-left: 0px;
+    align-items: center;
+}
+.img1{
+width: 295px;
+}
+.img2  {
+width: 42vw;
+
+}
+.img3{
+    width: 35vw;
+}
+.basket-images{
+    display: none;
+}
+.basket-images-sp {
+    display: block;
+    margin-top: 13px;
+}
+
+.Customized-Basket {
+    margin: 20px 0px;
+}
+
+footer{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-items{
+    align-items: flex-start;
+    justify-content: center
+}
+.Categories, .about-us, .Support {
+    margin: 16px 24px;
+}
+.Support{
+    width: 74%;
+}
+}
+
+/* End phone */
 
 
 
