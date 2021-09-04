@@ -16,6 +16,9 @@ p{
 
 
 
+#mobile{
+    display: none;
+}
 /*    header   */
 
 header{
@@ -769,12 +772,19 @@ body{
 
 /* phone */
 @media screen and (max-width: 450px) {
+    #desktop{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+   
 /* header */
 .logo img {
     width:100% ;
 }
 header{
-   background-image: url(/img/phone\ bg.svg);
+   background-image: url(/img/phonebg.png);
    height: 100vh;
    background-position: center; /* Center the image */
 background-repeat: no-repeat; /* Do not repeat the image */
@@ -981,6 +991,22 @@ footer{
 .Support{
     width: 74%;
 }
+
+
+/* slider */
+/* .productes-boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+    flex-wrap: nowrap;
+}
+.div-our-product h1{
+    margin-left: 30px;
+} */
+
+/* End slider */
+
 }
 
 /* End phone */
