@@ -4,9 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>slider</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
 </head>
+<style>
+    .section-padding{
+padding:20px 60px;
+}
+
+.single-logo{
+    color: black;
+    text-align: center;
+    width: 222px;
+/* height: 300px; */
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border: 1px solid #F2F2F2;
+box-shadow: 0px 2px 9px #F7F7F7;
+border-radius: 10px;
+}
+
+.single-logo h1 {
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+
+}
+.single-logo p { 
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+}
+.products-for-mobile{
+    text-align: center;
+}
+.products-for-mobile h1{
+
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+}
+.products-for-mobile-single-section h3{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+padding-left: 27px;
+}
+</style>
 <body>
-    
+    <section id="mobile">
+    <div class="products-for-mobile">
+        <h1>Our Product</h1>
+    </div>
+    <div class="products-for-mobile-single-section">
+        <h3>Fruits</h3>
+    <div class="brand-carousel section-padding owl-carousel" id="mobile">
+        <div class="single-logo">
+          <img src="./img/Products/Fruit/1.png" alt="">
+          <h1>Orange</h1>
+          <p>fruit</p>
+        </div>
+        <div class="single-logo">
+            <img src="./img/Products/Fruit/2.png" alt="">
+            <h1>Respberries</h1>
+            <p>fruit</p>
+          </div><div class="single-logo">
+            <img src="./img/Products/Fruit/3.png" alt="">
+            <h1>Peach</h1>
+            <p>fruit</p>
+          </div><div class="single-logo">
+            <img src="./img/Products/Fruit/4.png" alt="">
+            <h1>Grapes</h1>
+            <p>fruit</p>
+          </div><div class="single-logo">
+            <img src="./img/Products/Fruit/5.png" alt="">
+            <h1>Mango</h1>
+            <p>fruit</p>
+          </div><div class="single-logo">
+            <img src="./img/Products/Fruit/6.png" alt="">
+            <h1>Banana</h1>
+            <p>fruit</p>
+          </div><div class="single-logo">
+            <img src="./img/Products/Fruit/7.png" alt="">
+            <h1>Pomegranate</h1>
+            <p>fruit</p>
+          </div>
+          <div class="single-logo">
+            <img src="./img/Products/Fruit/8.png" alt="">
+            <h1>Water melon</h1>
+            <p>fruit</p>
+          </div>
+          <div class="single-logo">
+            <img src="./img/Products/Fruit/9.png" alt="">
+            <h1>Pear</h1>
+            <p>fruit</p>
+          </div>
+          <div class="single-logo">
+            <img src="./img/Products/Fruit/10.png" alt="">
+            <h1>Strawberry</h1>
+            <p>fruit</p>
+          </div>
+      </div>
+    </div>
+</section>
 </body>
+<script>
+    $('.brand-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  autoplay:true,
+  autoplayTimeout:1500,
+  responsive:{
+    0:{
+      items:1
+    },
+    600:{
+      items:3
+    },
+    1000:{
+      items:5
+    }
+  }
+}) 
+
+</script>
+
+
 </html>
