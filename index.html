@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fresh Corner Website</title>
+    <link rel="icon" href="./img/logo final.svg" type="image/gif" sizes="16x16">
+    <title>Fresh Corner </title>
     <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -22,7 +23,9 @@
 
 </head>
 
-<body>
+<body onload="myFunction()">
+    <div id="loading"></div>
+
     <header>
         <a href="#" class="logo"><img src="img/navlogo.png" alt="" /></a>
         <nav class="active">
@@ -565,7 +568,7 @@
         </div>
     </section> -->
 
-
+<!-- slider dalna hain -->
 
     <footer id="contactUs">
         <div class="footerlogo">
@@ -667,6 +670,13 @@
           var header = document.querySelector("header");
           header.classList.toggle("sticky", window.scrollY > 0);
         });
+      </script>
+      <script>
+          		var preloader = document.getElementById("loading");
+	
+    function myFunction(){
+        preloader.style.display = 'none';
+    };
       </script>
     <script src="Js/index.js"></script>
 </body>
