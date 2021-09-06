@@ -443,7 +443,7 @@ margin:10px 11px;
 }
 
 .div-our-product h1{
-    margin-left: 31px;
+    margin-left: 2vw;
 }
 
 
@@ -909,7 +909,7 @@ text-align: center;
     color: #00A653;
 }
 #header p{
-    width: 100%;
+    width: 98%;
     font-size: 16px;
 line-height: 15px;
 text-align: center;
@@ -939,6 +939,17 @@ margin: 5px;
 }
 .wcu-items{
     flex-wrap: wrap;
+}
+
+.wcu-item h4{
+    font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
 }
 
 /* .wcu-item{
@@ -1059,11 +1070,11 @@ line-height: 26px;
 width: 295px;
 }
 .img2  {
-width: 42vw;
+width: 45vw;
 
 }
 .img3{
-    width: 35vw;
+    width: 37vw;
 }
 .basket-images{
     display: none;
