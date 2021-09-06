@@ -51,6 +51,11 @@ header {
     display: none;
   }
 
+  header nav ul img{
+    display: none;
+    margin-right: 30vw;
+}
+
   @media (max-width: 991px) {
     header {
       padding: 0 20px;
@@ -68,11 +73,14 @@ header {
       /* display: none; */
       position: absolute;
       width: 100%;
-      height: calc(100vh - 50px);
-      background: none;
-      top: 100px;
+      height: 100vh;
+      background: #fff;
+      /* top: 100px; */
+      top: 0;
       left: 0;
       transition: 0.5s;
+      padding: 10px 0px;
+
     }
     header nav.active {
       left: -100%;
@@ -82,30 +90,43 @@ header {
       text-align: left;
     
     }
-   
+
+header nav ul img{
+    display: block;
+margin-top: 10px;
+margin-bottom: 20px;
+cursor: pointer;
+}
   }
+
+  
   header ul {
-      padding-left: 50px;
+      padding-left: 4px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  header ul li {
+  header ul li ,header ul img {
+      margin: 10px 0px;
     position: relative;
     list-style: none;
   }
-  header ul li a {
+  header ul li a ,header ul img {
     position: relative;
     margin: 0 25px;
     text-decoration: none;
-
-    letter-spacing: 2px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #171635;
     transition: 0.6s;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    
+    color: #171635;
+
   }
   .banner {
     position: relative;

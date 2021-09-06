@@ -27,14 +27,16 @@
         <a href="#" class="logo"><img src="img/navlogo.png" alt="" /></a>
         <nav class="active">
           <ul>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Offers</a></li>
-            <li><a href="#">Contact us</a></li>
+          <img src="img/cross 2.svg"  class="cross-icon"  alt="">
+
+            <li><a href="#freshCornerProducts" class="link-active">Products</a></li>
+            <li><a href="#offers" class="link-active">Offers</a></li>
+            <li><a href="#contactUs" class="link-active">Contact us</a></li>
           </ul>
         </nav>
         <div class="menu-toogle">
           <!-- <i class="fa fa-bars" aria-hidden="false"></i> -->
-          <img src="img/menu-5 1.svg" alt="">
+          <img src="img/menu-5 1.svg" class="menu-icon" alt="">
         </div>
       </header>
 
@@ -147,7 +149,7 @@
     </section>
 
 
-
+<div id="freshCornerProducts">
  <!-- Start Desktop and tablat -->
     <section class="Our-products" id="Our-products">
         <h1 class="h1-our-prdt">Our Product</h1>
@@ -456,7 +458,7 @@
             </section>
             <!-- End for mobile -->
 
-
+        </div>
 
 
 
@@ -565,7 +567,7 @@
 
 
 
-    <footer>
+    <footer id="contactUs">
         <div class="footerlogo">
             <img src="./img/logo final.svg" alt="">
         </div>
@@ -633,7 +635,9 @@
       items:5
     }
   }
-}) 
+});
+
+
     </script>
       <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
@@ -643,6 +647,21 @@
             $("nav").toggleClass("active");
           });
         });
+
+         $(document).ready(function () {
+          $(".cross-icon").click(function () {
+            $("nav").toggleClass("active");
+          });
+        });
+        
+
+
+        $(document).ready(function () {
+          $(".link-active").click(function () {
+            $("nav").toggleClass("active");
+          });
+        });
+  
   
         window.addEventListener("scroll", function () {
           var header = document.querySelector("header");
